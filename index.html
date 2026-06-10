@@ -8,7 +8,7 @@
     :root {
       color-scheme: light dark;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.55;
+      line-height: 1.58;
       color: #1f2933;
       background: #f7f8fa;
     }
@@ -18,9 +18,9 @@
     }
 
     main {
-      max-width: 820px;
+      max-width: 880px;
       margin: 0 auto;
-      padding: 48px 20px 64px;
+      padding: 48px 22px 72px;
       background: #ffffff;
       min-height: 100vh;
     }
@@ -32,7 +32,7 @@
     }
 
     h2 {
-      margin-top: 32px;
+      margin-top: 34px;
       font-size: 1.25rem;
       line-height: 1.3;
     }
@@ -50,6 +50,13 @@
       color: #52606d;
     }
 
+    .summary {
+      padding: 16px 18px;
+      border: 1px solid #d5dce3;
+      background: #f8fafc;
+      border-radius: 6px;
+    }
+
     @media (prefers-color-scheme: dark) {
       :root {
         color: #e5e7eb;
@@ -64,6 +71,11 @@
         color: #a7b0bd;
       }
 
+      .summary {
+        border-color: #334155;
+        background: #0f172a;
+      }
+
       a {
         color: #93c5fd;
       }
@@ -73,34 +85,46 @@
 <body>
   <main>
     <h1>Rested Privacy Policy</h1>
-    <p class="meta"><strong>Publisher:</strong> Gamzy<br><strong>Last updated:</strong> June 10, 2026</p>
+    <p class="meta"><strong>Publisher:</strong> Gamzy<br><strong>Effective date:</strong> June 10, 2026<br><strong>Last updated:</strong> June 10, 2026</p>
 
-    <p>Rested is a Windows desktop application published by Gamzy. This Privacy Policy explains what information Rested may access, how that information is used, where it is stored, and what controls users have.</p>
+    <p class="summary">Rested is a Windows desktop application that processes local data on the user's device to display local Codex usage and productivity information. Rested does not sell personal data, does not use personal data for advertising, and is not designed to transmit local Codex usage, session, thread, activity, or settings data to Gamzy servers or to third-party advertising or data broker services.</p>
+
+    <h2>Scope of this policy</h2>
+    <p>This Privacy Policy explains what information Rested may access, collect, store, or transmit; how that information is used; how it is stored and protected; the types of parties to whom information may be disclosed; and the controls users have over their information.</p>
+    <p>Rested is an independent application published by Gamzy. Rested is not affiliated with, endorsed by, sponsored by, or operated by OpenAI or Microsoft.</p>
 
     <h2>Information Rested may access</h2>
-    <p>Rested processes data locally on the user's Windows device. To provide its functionality, Rested may read local Codex usage, session, thread, activity, settings, and related application files selected by the user or available on the user's device.</p>
-    <p>Depending on the user's local files, this data may include usage statistics, session and thread metadata, timestamps, project or file paths, local app settings, activity information, limit information, and text contained in local Codex-related files. Rested uses this information to display usage statistics, session and thread summaries, limits, activity information, and related productivity information inside the app.</p>
+    <p>Rested is a full-trust Windows desktop application. To provide its functionality, Rested may access and process local files and settings on the user's Windows device, including local Codex usage, session, thread, activity, configuration, and related application files selected by the user or available in the user's local app data locations.</p>
+    <p>Depending on the user's local files, this information may include usage statistics, session and thread metadata, timestamps, project names, project paths, file paths, command or activity metadata, limit information, locally stored settings, and text contained in local Codex-related files. Some of this information may be personal information if it identifies, relates to, or can be associated with a user or another person.</p>
 
-    <h2>How information is used</h2>
-    <p>The information accessed by Rested is used only to provide the app's local functionality. Rested does not sell personal data, does not use personal data for advertising, and does not intentionally transmit Codex usage data, session data, thread data, activity data, local app data, or local settings to Gamzy servers or to third parties.</p>
+    <h2>How Rested uses information</h2>
+    <p>Rested uses the information it accesses only to provide local app functionality, including displaying usage statistics, session and thread summaries, activity information, local limits, status information, and related productivity information inside the app.</p>
+    <p>Rested does not use personal information for advertising, interest-based advertising, profiling, or sale to third parties.</p>
 
-    <h2>Storage, retention, and security</h2>
-    <p>Rested stores its own settings and cached app data locally on the user's device. Data shown by the app is derived from local files on the user's device. Rested does not operate a cloud account system for this data.</p>
-    <p>Because Rested is designed to process this information locally, the security of local files and local app data depends in part on the user's Windows device security, account access, storage permissions, backup settings, and operating system configuration.</p>
+    <h2>Local storage and retention</h2>
+    <p>Rested stores its own settings and any local cached app data on the user's Windows device. Data shown by Rested is derived from local files on the user's device. Rested does not operate a Gamzy cloud account system for local Codex data.</p>
+    <p>Local app settings and cached data remain on the device until removed by the user, replaced by normal app operation, cleared through Windows app storage controls where available, manually removed where permitted by Windows, or removed when the app is uninstalled.</p>
 
-    <h2>Sharing and disclosure</h2>
-    <p>Rested does not intentionally disclose the user's local Codex usage data, session data, thread data, activity data, local app data, or local settings to Gamzy servers, advertisers, data brokers, or other third parties.</p>
-    <p>If Microsoft Store services are used for purchase, trial, licensing, installation, analytics, crash reporting, certification, app distribution, or app updates, Microsoft may process data according to Microsoft's own privacy terms and platform policies.</p>
+    <h2>Transmission, sharing, and disclosure</h2>
+    <p>Rested is not designed to transmit local Codex usage data, session data, thread data, activity data, local app data, or local settings to Gamzy servers, advertisers, data brokers, or other third parties.</p>
+    <p>If the user chooses to contact Gamzy for support by email, the user may provide personal information such as an email address, message content, screenshots, logs, or diagnostic details. Gamzy uses support communications only to respond to support, privacy, or product questions.</p>
+    <p>If Microsoft Store, Windows, or related Microsoft services are used for purchase, trial, licensing, installation, updates, analytics, crash reporting, certification, security, or distribution, Microsoft may process information according to Microsoft's own privacy terms and platform policies.</p>
+    <p>Gamzy may disclose information if required to comply with applicable law, legal process, or enforceable governmental request, or to protect the rights, safety, and security of users, Gamzy, Microsoft Store services, or the public.</p>
 
-    <h2>User controls</h2>
-    <p>Users control the local files available on their device. Users can stop Rested from displaying information from local Codex files by deleting, moving, or restricting access to those files. If the user deletes or moves the local files that Rested reads, Rested may no longer be able to display information from those files.</p>
-    <p>Users can remove Rested's local settings and cached app data by clearing the app's local data through Windows settings, removing local app data manually where permitted by Windows, or uninstalling the app.</p>
+    <h2>Security</h2>
+    <p>Rested is designed to keep local Codex data local to the user's Windows device and to avoid unnecessary transmission of that data. Local files, local settings, and local cached data are protected by the user's Windows account, device security, storage permissions, backup configuration, and operating system protections.</p>
+    <p>Users should protect their Windows account, device, local files, and backups, because anyone with access to the user's Windows account or local storage may be able to access local files and app data stored on that device.</p>
+
+    <h2>User controls and access</h2>
+    <p>Users control the local files and folders available on their device. Users can stop Rested from displaying information from local Codex files by deleting, moving, or restricting access to those files. If the user deletes, moves, or restricts access to files that Rested reads, Rested may no longer be able to display information from those files.</p>
+    <p>Users can review their local Codex files and Rested's locally displayed information on their own device. Users can remove Rested's local settings and cached app data by clearing the app's local data through Windows settings where available, removing local app data manually where permitted by Windows, or uninstalling Rested.</p>
 
     <h2>Sensitive information and children</h2>
-    <p>Rested does not knowingly collect children's personal information, health data, financial data, contacts, photos, microphone recordings, camera recordings, or location data. Rested is not directed to children.</p>
+    <p>Rested is not directed to children and does not knowingly collect children's personal information. Rested is not designed to collect health data, financial data, contacts, photos, microphone recordings, camera recordings, or precise location data.</p>
+    <p>Because Rested reads local files selected by the user or available on the user's device, users should avoid storing sensitive personal information in local files that they do not want displayed or processed by Rested.</p>
 
     <h2>Changes to this policy</h2>
-    <p>Gamzy may update this Privacy Policy when Rested's functionality, data practices, or legal requirements change. The updated policy will be posted on this page with a revised last updated date.</p>
+    <p>Gamzy may update this Privacy Policy when Rested's functionality, data practices, legal requirements, or Microsoft Store requirements change. The updated policy will be posted on this page with a revised last updated date.</p>
 
     <h2>Contact</h2>
     <p>For support or privacy questions, contact: <a href="mailto:rested.support@gmail.com">rested.support@gmail.com</a></p>
